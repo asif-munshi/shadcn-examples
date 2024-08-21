@@ -1,0 +1,9 @@
+user.name=asif-munshi
+user.email=asifmunshi2978@gmail.com
+init.defaultbranch=main
+core.compression=0
+cola.startupmode=folder
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
