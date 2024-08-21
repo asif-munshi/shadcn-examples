@@ -16,6 +16,7 @@ import { Overview } from "@/components/dashboard/overview";
 import { RecentSales } from "@/components/dashboard/recent-sales";
 import { Search } from "@/components/dashboard/search";
 import TeamSwitcher from "@/components/dashboard/team-switcher";
+import { ThemeToggle } from "@/components/layout/theme-toggle-button";
 import { UserNav } from "@/components/dashboard/user-nav";
 
 export default function DashboardPage() {
@@ -44,6 +45,7 @@ export default function DashboardPage() {
             <MainNav className="mx-6" />
             <div className="ml-auto flex items-center space-x-4">
               <Search />
+              <ThemeToggle />
               <UserNav />
             </div>
           </div>

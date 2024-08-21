@@ -32,6 +32,7 @@ import { MailList } from "./mail-list";
 import { Nav } from "./nav";
 import { type Mail } from "@/app/mail/data";
 import { useMail } from "@/app/mail/use-mail";
+import { ThemeToggle } from "../layout/theme-toggle-button";
 
 interface MailProps {
   accounts: {
@@ -180,7 +181,8 @@ export function Mail({
         <ResizablePanel defaultSize={defaultLayout[1]} minSize={30}>
           <Tabs defaultValue="all">
             <div className="flex items-center px-4 py-2">
-              <h1 className="text-xl font-bold">Inbox</h1>
+              <h1 className="text-xl font-bold pr-4">Inbox</h1>
+              <ThemeToggle />
               <TabsList className="ml-auto">
                 <TabsTrigger
                   value="all"
